@@ -1,0 +1,9 @@
+tornado
+requests
+unidecode
+scipy
+numpy
+sklearn
+redis
+praw
+discord.py
