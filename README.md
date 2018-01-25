@@ -3,7 +3,7 @@
 
 AI Mod is a modular social media content scanning system made to detect spam, trolling, doxing, and more. While designed to be a smarter version of Reddit's Automoderator, it is flexible enough to be used with any platform.
 
-Test out a live demo at https://ai-mod.com
+Test out a live demo at https://ai-mod.com. Also visit us on [Reddit](https://www.reddit.com/r/ai_mod/) and [Discord](https://discord.gg/v72rkzP).
 
 
 ## Features

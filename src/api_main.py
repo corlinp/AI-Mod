@@ -25,7 +25,6 @@ def make_app():
     return tornado.web.Application([
         (r"/", WebHandler),
         (r"/([^//]*)", tornado.web.StaticFileHandler, {'path': '../web/'}),
-        #(r"/([^//]*)", MainHandler),
         (r"/api(/?)", APIHandler),
     ])
 
