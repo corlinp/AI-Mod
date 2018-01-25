@@ -8,5 +8,6 @@ COPY ./ /
 
 ENV AM_I_IN_A_DOCKER_CONTAINER Yes
 ENV PYTHONUNBUFFERED 1
+ENV PYTHONPATH /
 
-CMD python /src/api_main.py
+CMD cd /src && python api_main.py
