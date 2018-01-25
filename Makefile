@@ -1,5 +1,5 @@
 start:
-    docker-compose run
+	docker-compose run
 
 upgrade:
 	git fetch --all
