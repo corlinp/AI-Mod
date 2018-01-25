@@ -71,11 +71,10 @@ def detect_spam(text):
 
     # Punish if there is no link. Who spams without a link?
     if len(extract_urls(text)) == 0:
-        spamresult *= 0.85
+        spamresult *= 0.925
 
     report['spam'] = spamresult
     return report
-
 
 
 if __name__ == "__main__":
