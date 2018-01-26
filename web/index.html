@@ -116,9 +116,17 @@
             }
         }
 
-        $('#input-text').keypress('input', function(e) {
-        if(e.which == 13) {
-            term = $("#input-text").val()
+        var delay = (function(){
+          var timer = 0;
+          return function(callback, ms){
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+          };
+        })();
+
+        $('#input-text').keyup('input', function() {
+            delay(function(){
+              term = $("#input-text").val()
             /* Send the data using post */
             var posting = $.post("api/", term, function(data) {
                 /* var content = $(data).find('#content'); */
@@ -126,7 +134,7 @@
                 highlightItem("#spam-text", data.spam);
                 highlightItem("#troll-text", data.troll);
             }, "json");
-        }
+            }, 125 );
         });
     </script>
 
