@@ -13,7 +13,7 @@ allows any developer to take advantage of its capabilities.
 
 ### Usage
 
-`POST` some text to /api/v1
+`POST` some text to /api
 
 *Returns*: A JSON string with confidence for each category and possibly
 some notes. Example:
