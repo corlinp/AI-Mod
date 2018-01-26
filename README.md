@@ -5,6 +5,7 @@ AI Mod is a modular social media content scanning system made to detect spam, tr
 
 Test out a live demo at https://ai-mod.com. Also visit us on [Reddit](https://www.reddit.com/r/ai_mod/) and [Discord](https://discord.gg/v72rkzP).
 
+WARNING: Code, datasets, and test cases in this repo contain NSFW language.
 
 ## Features
 
